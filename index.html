@@ -1,20 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Tienda de Ropa Deportiva</title> 
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>"EL DIEGO" ROPA Deportiva <img src="./imagenes/el-diego-habano.png" class="product img"> </img></h1>
-  </header>
-<h2 class="subtitulo"> MANTENEMOS LA MEJOR CALIDAD 
-    Y GUARDAMOS EN NUESTRA INDUMENTARIA 
-LA IDENTIDAD FUTBOLERA  <img src="./imagenes/el-diego-firma.png" class="product h2">   </h2>
-  <div id="products-container">
-    <!-- Aquí se mostrarán los productos dinámicamente -->
-  </div>
+<head> 
+    
+    <title>Mi Portafolio</title> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
 
-  <script src="script.js"></script>
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 51px;
+            color: #ffffff;
+        } 
+        #cabecera{ 
+            height: 136px;
+    width: 110px;
+        }
+
+        #sobre-mi {
+            background-color: hsl(194, 76%, 40%);
+        }
+
+        #experiencia {
+            background-color: #1883ca;
+        }
+
+        #proyectos {
+            background-color: #334de2;
+        }
+
+        #contacto {
+            background-color: #6c5b7b;
+        }
+    </style>
+</head> 
+<body> 
+    <h1>Portafolio Personal</h1> 
+    <div id="sobre-mi" class="section"> 
+        <img src="./imagenes/zequi cv-PhotoRoom.png-PhotoRoom.png" id="cabecera"></img>
+        <h2>Sobre mí</h2> 
+        <p>Mi nombre es Ezequiel Alcaraz. Estoy en constante aprendizaje en programación y realicé una pasantía en una startup en Buenos Aires.</p>
+        <p>Mis conocimientos se basan en <span class="highlight">JavaScript</span>, <span class="highlight">HTML</span> y <span class="highlight">CSS</span>.</p>
+    </div>
+
+    <div id="experiencia" class="section">
+        <h2>Experiencia</h2>
+        <p>Pasantía en una startup de Buenos Aires, donde adquirí experiencia en el desarrollo de aplicaciones web utilizando tecnologías como JavaScript, HTML y CSS.</p>
+    </div>
+
+    <div id="proyectos" class="section">
+        <h2>Proyectos</h2>
+        <p> Pagina web sobre edicion de imagenes con IA //Desarrollo de videojuego "mokepon"
+        </p>
+    </div>
+
+    <div id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de:</p>
+        <ul>
+            <li>Email: ezelalcarazgrabre@gmail.com</li>
+            <li>Teléfono: +54-3794290339</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/tu-perfil">LinkedIn</a></li>
+        </ul>
+    </div>
 </body>
 </html>
