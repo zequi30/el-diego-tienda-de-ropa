@@ -10,7 +10,8 @@
         }
 
         h1 {
-            text-align: center;
+            text-align: center; 
+            margin-bottom: 20px;
         }
 
         h2 {
@@ -18,7 +19,10 @@
         }
 
         p {
-            margin-bottom: 20px;
+            margin-bottom: 20px; 
+            max-width: 300px; 
+            text-align: center; 
+            margin: 0 auto;
         }
 
         .highlight {
@@ -33,11 +37,23 @@
         } 
         #cabecera{ 
             height: 136px;
-    width: 110px;
+            width: 110px; 
+           margin-top: 20px;
+           margin-bottom: 20px;
         }
 
-        #sobre-mi {
-            background-color: hsl(194, 76%, 40%);
+        #sobre-mi { 
+            padding: 50px;
+            background-color: hsl(194, 76%, 40%); 
+            text-align: center;
+        } 
+        #sobre-mi img{ 
+            display: inline-block;
+            height: 136px;
+            width: 110px; 
+           margin-top: 20px;
+           margin-bottom: 20px; 
+           border-radius: 50%;
         }
 
         #experiencia {
@@ -45,11 +61,20 @@
         }
 
         #proyectos {
-            background-color: #334de2;
+            background-color: #109ac4;
         }
 
         #contacto {
             background-color: #6c5b7b;
+        } 
+        ul{ 
+            list-style-type: none;
+        padding: 0;
+        margin: 0;
+        } 
+        li{ 
+      display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+      margin-right: 10px; /* Espaciado entre los elementos de lista */
         }
     </style>
 </head> 
@@ -59,7 +84,16 @@
         <img src="./imagenes/zequi cv-PhotoRoom.png-PhotoRoom.png" id="cabecera"></img>
         <h2>Sobre mí</h2> 
         <p>Mi nombre es Ezequiel Alcaraz. Estoy en constante aprendizaje en programación y realicé una pasantía en una startup en Buenos Aires.</p>
-        <p>Mis conocimientos se basan en <span class="highlight">JavaScript</span>, <span class="highlight">HTML</span> y <span class="highlight">CSS</span>.</p>
+        <p>Mis conocimientos se basan en <span class="highlight">JavaScript</span>, <span class="highlight">HTML</span> y <span class="highlight">CSS</span>.</p> 
+
+        <ul>
+
+            <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+            <li><a href="https://twitter.com/ezequielalcara5/">Twitter</a></li>
+            <li><a href="https://github.com/zequi30/">GitHub</a></li> 
+            <li><a href="https://www.instagram.com/ezealcar5/">Instagram</a></li>
+            
+            </ul>
     </div>
 
     <div id="experiencia" class="section">
@@ -69,9 +103,9 @@
 
     <div id="proyectos" class="section">
         <h2>Proyectos</h2>
-        <p> Pagina web sobre edicion de imagenes con IA //Desarrollo de videojuego "mokepon"
+        <p> Pagina web sobre edicion de imagenes con IA //  Desarrollo de videojuego "MOKEPON"
         </p>
-    </div>
+    </div> 
 
     <div id="contacto" class="section">
         <h2>Contacto</h2>
